@@ -2,7 +2,7 @@
   {
     "goal": {
       "id": "DEV6",
-      "title": "global_goals.DEV6-title",
+      "title": "SIDS are supported by a reinvigorated global partnership for development",
       "indicators": [
         
         {
@@ -66,7 +66,7 @@
   {
     "goal": {
       "id": "DST5",
-      "title": "global_goals.DST5-title",
+      "title": "SIDS’ policymaking leverages robust data, science, innovation and technology",
       "indicators": [
         
         {
@@ -154,7 +154,7 @@
   {
     "goal": {
       "id": "ECO1",
-      "title": "global_goals.ECO1-title",
+      "title": "SIDS’ economies are robust, diversified, and adaptable",
       "indicators": [
         
         {
@@ -306,7 +306,7 @@
   {
     "goal": {
       "id": "ENV3",
-      "title": "global_goals.ENV3-title",
+      "title": "SIDS are on the path to environmental sustainability",
       "indicators": [
         
         {
@@ -442,7 +442,7 @@
   {
     "goal": {
       "id": "FIN7",
-      "title": "global_goals.FIN7-title",
+      "title": "The international financial architecture addresses the unique development circumstances of SIDS",
       "indicators": [
         
         {
@@ -466,7 +466,7 @@
   {
     "goal": {
       "id": "RES4",
-      "title": "global_goals.RES4-title",
+      "title": "SIDS are able to withstand shocks and enhance resilience",
       "indicators": [
         
         {
@@ -554,7 +554,7 @@
   {
     "goal": {
       "id": "SOC2",
-      "title": "global_goals.SOC2-title",
+      "title": "SIDS promote social equity and inclusion",
       "indicators": [
         
         {
