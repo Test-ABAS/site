@@ -101,8 +101,8 @@ frontpage_goals_grid:
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
-goal_image_extension: ''
+goal_image_base: https://github.com/Test-ABAS/site/tree/develop/assets/img/abas-goal-icons
+goal_image_extension: png
 goals_page:
   title: general.goals
   description: frontpage.instructions_shorter
