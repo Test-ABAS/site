@@ -37,3 +37,4 @@ exclude:
   - README.md
   - LICENSE
 
+other_framework_domain: "https://Test-ABAS.github.io/sdg-site"
