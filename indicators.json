@@ -11,7 +11,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/DEV6-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "DEV6-2-1",
@@ -300,6 +300,22 @@
           "keywords": "",
           "href": "/site/ECO1-13-1/",
           "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "ECO6",
+      "title": "global_goals.ECO6-title",
+      "indicators": [
+        
+        {
+          "id": "ECO6-1-1",
+          "title": "global_indicators.ECO6-1-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ECO6-1-1/",
+          "status": "complete"
         }]
     }
   },
