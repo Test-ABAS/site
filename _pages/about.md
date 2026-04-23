@@ -12,7 +12,7 @@ layout: page
 
 In May 2024, The Fourth Inernational Conference on Small Island Developing States (SIDS), held in Antigua and Barbuda adopted the Antigua and Barbuda Agenda for SIDS (ABAS) which was subsequently endorsed by the United Nations General Assembly on 16 July 2024 (A/RES/78/317). ABAS is the fourth international programme of action for SIDS, setting out sustainable development priorities for 2024-2034 and identifying support needed from the international community. 
 
-The ABAS Monitoring and Evaluation (M&E) Framework was developed with clear targets and indicators so that progress towards the implementation of the ABAS can be monitored. The framework builds on the [SAMOA Pathway](https://www.un.org/ohrlls/content/samoa-pathway) and is aligned with the [Sustainable Development Goals (SDGs)](http://www.un.org/sustainabledevelopment/sustainable-development-goals/).
+The ABAS Monitoring and Evaluation (M&E) Framework was developed with clear targets and indicators so that progress towards the implementation of the ABAS can be monitored. The framework consists of seven sections and builds on the [SAMOA Pathway](https://www.un.org/ohrlls/content/samoa-pathway) and is aligned with the [Sustainable Development Goals (SDGs)](http://www.un.org/sustainabledevelopment/sustainable-development-goals/).
 
 
 ## About this site
