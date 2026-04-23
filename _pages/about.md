@@ -10,15 +10,10 @@ layout: page
 - [Feedback](#feedback)
 
 
-The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
+In May 2024, The Fourth Inernational Conference on Small Island Developing States (SIDS), held in Antigua and Barbuda adopted the Antigua and Barbuda Agenda for SIDS (ABAS) which was subsequently endorsed by the United Nations General Assembly on 16 July 2024 (A/RES/78/317). ABAS is the fourth international programme of action for SIDS, setting out sustainable development priorities for 2024-2034 and identifying support needed from the international community. 
 
-  * end poverty
-  
-  * protect the planet
-  
-  * improve the lives and prospects of everyone, everywhere
+The ABAS Monitoring and Evaluation (M&E) Framework was developed with clear targets and indicators so that progress towards the implementation of the ABAS can be monitored. The framework consists of seven sections and builds on the [SAMOA Pathway](https://www.un.org/ohrlls/content/samoa-pathway) and is aligned with the [Sustainable Development Goals (SDGs)](http://www.un.org/sustainabledevelopment/sustainable-development-goals/).
 
-The 17 Goals were adopted by all UN Member States in 2015, as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld).
 
 ## About this site
 This site is based on the open source [Open SDG](https://open-sdg.org/) platform.
@@ -31,5 +26,5 @@ If you have comments, feedback, or want to get involved with the Open SDG commun
 Answers to some specific questions about this website are included on our [frequently asked questions]({{ site.baseurl }}{% link _pages/faq.md %}) page.
 
 ## Feedback
-To provide feedback on our SDG data please [contact us]({{ site.baseurl }}/contact-us)
+To provide feedback on our ABAS M&E Framework data please [contact us]({{ site.baseurl }}/contact-us)
 
