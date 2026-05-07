@@ -734,36 +734,4 @@
           "status": "notstarted"
         }]
     }
-  },
-  {
-    "goal": {
-      "id": "DEV6",
-      "title": "global_goals.DEV6-title",
-      "indicators": [
-        
-        {
-          "id": "DEV6-1-1",
-          "title": "global_indicators.DEV6-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/DEV6-1-1/",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "ECO1",
-      "title": "global_goals.ECO1-title",
-      "indicators": [
-        
-        {
-          "id": "ECO1-1-1",
-          "title": "global_indicators.ECO1-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ECO1-1-1/",
-          "status": "complete"
-        }]
-    }
   }]
