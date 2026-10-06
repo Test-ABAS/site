@@ -4,15 +4,12 @@
 
     .goal-tiles {
         .goal-tile {
-           @media only screen and (min-width: 992px) {
-              .frontpage-goals-grid .goal-tiles .goal-tile {
-                 width: 14%;
-              }
-           }
- 
-   #main-content .goal-tiles .goal-tile img {
-      box-shadow: none;
-   }
+            @media only screen and (min-width: 992px) {
+                // Display 9-goal rows on desktop.
+                width: 14%;
+            }
+        }
+    }
 
     .frontpage-goals-grid-title {
         margin-top: 20px;
