@@ -1,9 +1,21 @@
-@media only screen and (min-width: 992px) {
-   .frontpage-goals-grid .goal-tiles .goal-tile {
-       width: 14%;
-   }
-}
+.frontpage-goals-grid {
+    margin: 40px 0 20px 0;
+    border-top: 2px solid $frontpageGrid-horizontalRule-color;
+
+    .goal-tiles {
+        .goal-tile {
+           @media only screen and (min-width: 992px) {
+              .frontpage-goals-grid .goal-tiles .goal-tile {
+                 width: 14%;
+              }
+           }
  
-#main-content .goal-tiles .goal-tile img {
-   box-shadow: none;
+   #main-content .goal-tiles .goal-tile img {
+      box-shadow: none;
+   }
+
+    .frontpage-goals-grid-title {
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
 }
