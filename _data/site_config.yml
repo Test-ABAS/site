@@ -103,7 +103,7 @@ frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
 goal_image_base: /site/assets/img/abas-goal-icons
-goal_image_extension: png
+goal_image_extension: svg
 goals_page:
   title: general.goals
   description: frontpage.instructions_shorter
