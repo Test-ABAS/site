@@ -1,1 +1,13 @@
 // Enter any custom Sass in this file.
+
+#main-content .goal-tiles .goal-tile img {
+  border-radius: 20px;
+}
+ 
+@media only screen and (min-width: 992px) {
+  .frontpage-goals-grid .goal-tiles .goal-tile {
+	  width: 14%;
+  }
+}
+
+
