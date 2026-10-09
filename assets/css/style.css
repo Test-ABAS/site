@@ -2737,3 +2737,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .goal-banner {
   padding-top: 30px;
   padding-bottom: 30px; }
+
+.goal-banner .goal-icon-image {
+  max-width: 100%; }
