@@ -2758,25 +2758,3 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .goal-tiles #goal-ABAS7, .goal-tiles .goal-icon-ABAS1 {
   background-color: #E0DF9F; }
-
-body.contrast-high #main-content .goal-tiles .goal-tile {
-  background-color: black !important;
-  border: 2px solid white !important; }
-  body.contrast-high #main-content .goal-tiles .goal-tile,
-  body.contrast-high #main-content .goal-tiles .goal-tile a,
-  body.contrast-high #main-content .goal-tiles .goal-tile a:visited,
-  body.contrast-high #main-content .goal-tiles .goal-tile a:hover,
-  body.contrast-high #main-content .goal-tiles .goal-tile a:focus,
-  body.contrast-high #main-content .goal-tiles .goal-tile h1,
-  body.contrast-high #main-content .goal-tiles .goal-tile h2,
-  body.contrast-high #main-content .goal-tiles .goal-tile h3,
-  body.contrast-high #main-content .goal-tiles .goal-tile h4,
-  body.contrast-high #main-content .goal-tiles .goal-tile p,
-  body.contrast-high #main-content .goal-tiles .goal-tile span {
-    color: white !important; }
-  body.contrast-high #main-content .goal-tiles .goal-tile img {
-    background-color: black !important;
-    filter: brightness(0) invert(1); }
-  body.contrast-high #main-content .goal-tiles .goal-tile:hover, body.contrast-high #main-content .goal-tiles .goal-tile:focus-within {
-    background-color: black !important;
-    box-shadow: 0 0 0 5px #FFDD00; }
