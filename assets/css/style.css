@@ -2737,3 +2737,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .goal-banner {
   padding-top: 30px;
   padding-bottom: 10px; }
+
+.goal-tiles #goal-ABAS1, .goal-tiles .goal-icon-ABAS1 {
+  background-color: #0963C7; }
