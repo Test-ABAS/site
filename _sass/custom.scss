@@ -41,3 +41,41 @@
 .goal-tiles #goal-ABAS7, .goal-tiles .goal-icon-ABAS1 {
   background-color: #E0DF9F;
 }
+
+body.contrast-high {
+    #main-content {
+        .goal-tiles {
+            .goal-tile {
+                background-color: black !important;
+                border: 2px solid white !important;
+
+                // All text
+                &, 
+                a,
+                a:visited,
+                a:hover,
+                a:focus,
+                h1,
+                h2,
+                h3,
+                h4,
+                p,
+                span {
+                    color: white !important;
+                }
+
+                // Goal icon images
+                img {
+                    background-color: black !important;
+                    filter: brightness(0) invert(1);
+                }
+
+                &:hover,
+                &:focus-within {
+                    background-color: black !important;
+                    box-shadow: 0 0 0 5px $color-highlight-highContrast;
+                }
+            }
+        }
+    }
+}
