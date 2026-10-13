@@ -2738,9 +2738,11 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   padding-top: 30px;
   padding-bottom: 10px; }
 
-.goal-tiles #goal-ABAS1, .goal-tiles .goal-icon-ABAS1 {
-  background-color: #0963C7;
+.goal-tiles #goal-ABAS4 *, .goal-tiles #goal-ABAS4 ::after, .goal-tiles #goal-ABAS4 ::before, .goal-tiles .goal-icon-ABAS4 *, .goal-tiles .goal-icon-ABAS4 ::after, .goal-tiles .goal-icon-ABAS4 ::before {
   border-radius: 20px; }
+
+.goal-tiles #goal-ABAS1, .goal-tiles .goal-icon-ABAS1 {
+  background-color: #0963C7; }
 
 .goal-tiles #goal-ABAS2, .goal-tiles .goal-icon-ABAS2 {
   background-color: #F06B4F; }
