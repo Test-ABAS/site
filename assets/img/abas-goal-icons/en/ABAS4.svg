@@ -9,12 +9,12 @@
 <path d="M103.266 69H47V134H103.266V69Z" fill="white"/>
 </mask>
 <g mask="url(#mask1_1_114)">
-<path d="M76.287 132.474C75.552 133.065 75.133 133.386 75.133 133.386C75.133 133.386 74.713 133.065 73.978 132.474" stroke="#0F766E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M71.668 130.569C64.274 124.329 47.614 108.958 47.614 97.133C47.6578 89.8634 50.5764 82.9064 55.7324 77.7815C60.8883 72.6565 67.8628 69.7799 75.1325 69.7799C82.4023 69.7799 89.3767 72.6565 94.5326 77.7815C99.6886 82.9064 102.607 89.8634 102.651 97.133C102.651 109.621 84.074 126.061 77.451 131.533" stroke="#0F766E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.05 3.05"/>
-<path d="M60.877 93.289L75.132 79.033L89.389 93.289" stroke="#0F766E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M63.253 90.917V107.545H87.016V90.917" stroke="#0F766E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M70.381 107.545V98.045H79.881V107.545" stroke="#0F766E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M87.016 114.545L83.056 111.687L79.097 114.545L75.136 111.687L71.176 114.545L67.216 111.687L63.254 114.545" stroke="#0F766E" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M76.287 132.474C75.552 133.065 75.133 133.386 75.133 133.386C75.133 133.386 74.713 133.065 73.978 132.474" stroke="#1E294B" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.668 130.569C64.274 124.329 47.614 108.958 47.614 97.133C47.6578 89.8634 50.5764 82.9064 55.7324 77.7815C60.8883 72.6565 67.8628 69.7799 75.1325 69.7799C82.4023 69.7799 89.3767 72.6565 94.5326 77.7815C99.6886 82.9064 102.607 89.8634 102.651 97.133C102.651 109.621 84.074 126.061 77.451 131.533" stroke="#1E294B" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.05 3.05"/>
+<path d="M60.877 93.289L75.132 79.033L89.389 93.289" stroke="#1E294B" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M63.253 90.917V107.545H87.016V90.917" stroke="#1E294B" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.381 107.545V98.045H79.881V107.545" stroke="#1E294B" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M87.016 114.545L83.056 111.687L79.097 114.545L75.136 111.687L71.176 114.545L67.216 111.687L63.254 114.545" stroke="#1E294B" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 </g>
