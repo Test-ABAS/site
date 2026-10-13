@@ -17,33 +17,35 @@
     padding-bottom: 10px;
 }
 
-.goal-tiles #goal-ABAS4, .goal-tiles .goal-icon-ABAS4 {
-	*, ::after, ::before {
-    border-radius: 20px;
-	}
-}
 
 
 //giving the ABAS goal icons their colours:
 
 .goal-tiles #goal-ABAS1, .goal-tiles .goal-icon-ABAS1 {
-  background-color: #0963C7;	
+  background-color: #0963C7;
+	border-radius: 20px;
 }
 .goal-tiles #goal-ABAS2, .goal-tiles .goal-icon-ABAS2 {
   background-color: #F06B4F;
+	border-radius: 20px;
 }
 .goal-tiles #goal-ABAS3, .goal-tiles .goal-icon-ABAS3 {
   background-color: #27833A;
+	border-radius: 20px;
 }
 .goal-tiles #goal-ABAS4, .goal-tiles .goal-icon-ABAS4 {
   background-color: #95EFE4;
+	border-radius: 20px;
 }
 .goal-tiles #goal-ABAS5, .goal-tiles .goal-icon-ABAS5 {
   background-color: #3EA3DA;
+	border-radius: 20px;
 }
 .goal-tiles #goal-ABAS6, .goal-tiles .goal-icon-ABAS6 {
   background-color: #19486A;
+	border-radius: 20px;
 }
 .goal-tiles #goal-ABAS7, .goal-tiles .goal-icon-ABAS7 {
   background-color: #E0DF9F;
+	border-radius: 20px;
 }
