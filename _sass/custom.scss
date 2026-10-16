@@ -50,6 +50,10 @@
 	border-radius: 20px;
 }
 
+#main-content .goal-tiles .goal-tile a:focus {
+    border-radius: 20px;
+}
+
 body.contrast-high {
     #main-content {
         .goal-tiles {
