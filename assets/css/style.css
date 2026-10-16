@@ -2765,3 +2765,10 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .goal-tiles #goal-ABAS7, .goal-tiles .goal-icon-ABAS7 {
   background-color: #E0DF9F;
   border-radius: 20px; }
+
+body.contrast-high #main-content .goal-tiles .goal-tile svg * {
+  stroke: white !important;
+  fill: white !important; }
+body.contrast-high #main-content .goal-tiles .goal-tile svg rect {
+  fill: #0963C7 !important;
+  stroke: none !important; }
