@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20261119113507">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20261119150154">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -312,7 +312,7 @@ layout-indicator-iframe
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="true"
+  data-showdata="false"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
@@ -324,328 +324,14 @@ layout-indicator-iframe
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Group&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
   data-proxyseries="null"
 >
   
-  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
-  <span role="status" class="visually-hidden" id="indicator-data-unit-status"></span>
-  <span role="status" class="visually-hidden" id="indicator-data-series-status"></span>
-  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
-    <div id="serieses"></div>
-<div id="units"></div>
-<div id="toolbar">
-  <span id="series-help">
-    <h4>Sub-categories</h4>
-    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
-  </span>
-  <div id="fields">
-    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
-  </div>
-</div>
-
-  </div>
-  <div id="indicator-main" class="indicator-main col-md-9">
-    
-
-
-
-
-<div id="headlineTable">
-
-  <div id="datatables">
-
-    
-    <a role="button" href="https://test-abas.github.io/data/en/headline/ABAS1-1-1.csv" class="btn btn-primary btn-download" download="indicator_ABAS1-1-1.csv" tabindex="0" role="button">Download headline data (.csv)</a>
-    
-    <a role="button" href="https://test-abas.github.io/data/en/data/ABAS1-1-1.csv" class="btn btn-primary btn-download" download='indicator_ABAS1-1-1.csv' tabindex='0' role='button'>Download source data (.csv)</a>
-
-    <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
-
-    
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Debt service as a proportion of exports of goods, services and primary income</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">2</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">2</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
-    
-  </div>
-
-  
-  <div id="datatableFooter">
-    
-    
-    <p>Geographical Area: </p>
-    
-    
-    <p>Unit of Measurement: </p>
-    
-    
-    <p>Footnote: </p>
-    
-  </div>
-  
-
-</div>
-
-
-<section>
-
-  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
-
-  <div class="async-loaded mt-4" style="display:none;">
-
-    <div style="display: none;">
-    <span id="table-alternative">For tabular data alternative see Table tab.</span>
-  </div>
-  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
-    
-    <li role="presentation"
-      class="
-        nav-item
-        
-        
-      ">
-      <button
-        class="nav-link active"
-        data-bs-toggle="tab"
-        role="tab"
-        type="button"
-        
-          id="tab-chartview"
-          data-bs-target="#chartview"
-          aria-controls="chartview"
-          aria-describedby="table-alternative"
-          data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Chart tab"
-
-        
-      >Chart</button>
-    </li>
-    
-    <li role="presentation"
-      class="
-        nav-item
-        
-        
-      ">
-      <button
-        class="nav-link "
-        data-bs-toggle="tab"
-        role="tab"
-        type="button"
-        
-          id="tab-tableview"
-          data-bs-target="#tableview"
-          aria-controls="tableview"
-          data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
-
-        
-      >Table</button>
-    </li>
-    
-  </ul>
-  
-    <div class="tab-content data-view">
-    
-      
-        <div role="tabpanel" class="tab-pane active" id="chartview">
-          
-
-    <div id="dataset-size-warning" style="display:none" role="alert">
-      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
-      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
-    </div>
-
-    
-    <div id="selectionsChart">
-      <figure role="group">
-        <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">
-            Debt service as a proportion of exports of goods, services and primary income
-          </h4>
-          <div id="chart" class="plot-container">
-            <canvas
-    role="img"
-    aria-labelledby="chart-heading"
-    aria-describedby="table-alternative chart-annotations"
-    tabindex="0"
- ></canvas>
-
-          </div>
-          <div id="plotLegend"></div>
-          
-
-
-
-<div id="selectionChartFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-
-        
-
-        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
-        
-
-        
-
-        
-
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >Footnote:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >Data last updated:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
-        
-    </dl>
-    
-</div>
-
-        </div>
-      </figure>
-      <div id="chartSelectionDownload" class="clearfix">
-        <button
-          id="btnSave"
-          title="Download chart image as PNG"
-          aria-label="Download chart image as PNG"
-          class='btn btn-primary btn-download'>
-          Download chart image (.png)
-        </button><!--
-   --></div>
-    </div>
-
-
-
-        </div>
-      
-    
-      
-        <div role="tabpanel" class="tab-pane " id="tableview">
-          <div style="display: none;">
-            <span id="column-sort-info">Click to sort by this column</span>
-          </div>
-          <div id="selectionsTable"></div>
-<dl id="tableTargetLines" class="clearfix"></dl>
-
-
-
-
-<div id="selectionTableFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-
-        
-
-        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
-        
-
-        
-
-        
-
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >Footnote:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >Data last updated:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
-        
-    </dl>
-    
-</div>
-
-<div id="tableSelectionDownload" class="clearfix"></div>
-
-        </div>
-      
-    
-  </div>
-  
-
-  </div>
-
-</section>
-
+  <div id="indicator-main" class="indicator-main col-md-12">
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -744,19 +430,8 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row">Indicator information </th>
-        <td>
-          
-            <p>Debt service as a proportion of exports of goods and services</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
+          
       
       
       
@@ -813,19 +488,8 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row">Metadata update </th>
-        <td>
-          
-            <p>2023</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
+          
       
       
       
@@ -850,328 +514,8 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row">Data reporter </th>
-        <td>
-          
-            <p>Kenya National Bureau of Statistics</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
           
-            <p>Kenya National Bureau of Statistics</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Contact person(s) </th>
-        <td>
-          
-            <p>Director Macroeconomics Statistics</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Contact organisation unit </th>
-        <td>
-          
-            <p>Directorate of Macroeconomics Statistics</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Contact person function </th>
-        <td>
-          
-            <p>Production and Dissemination of Macroeconomics Statistics</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Contact phone </th>
-        <td>
-          
-            <p>+254-20 2911-000</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Contact mail </th>
-        <td>
-          
-            <p>30266-00100, Nairobi- Kenya</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Contact email </th>
-        <td>
-          
-            <p>macro@knbs.or.ke</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Definition, concepts, and classifications </th>
-        <td>
-          
-            <p>DEFINITION, CONCEPTS, AND CLASSIFICATIONS</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Definition and concepts </th>
-        <td>
-          
-            <p><strong> Definition:</strong></p>
-<p>Debt service as proportion of exports of goods and services is the percentage of debt services (principle and interest payments) to the exports of goods and services. Debt services covered in this indicator refer only to public and publicly guaranteed debt.</p>
-<p><strong>Concepts:</strong></p>
-<p>Concepts of public and publicly guaranteed external debt data are in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6) methodology.</p>
-<p>“Exports of goods and services” data concepts are in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6).</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Unit of measure </th>
-        <td>
-          
-            <p>Percent (%)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Classifications </th>
-        <td>
-          
-            <p>BPM6</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Data source type and collection method </th>
-        <td>
-          
-            <p>DATA SOURCE, TYPE AND DATA COLLECTION METHOD</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Data sources </th>
-        <td>
-          
-            <p>Data collection is conducted at national level, the data sources are Kenya Revenue Authority, Central Bank of Kenya and The National Treasury</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Data collection method </th>
-        <td>
-          
-            <p>Administrative Data </p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Data collection calendar </th>
-        <td>
-          
-            <p>All year round</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Data release calendar </th>
-        <td>
-          
-            <p>End of April of every year(Annual) for Economic Survey. </p>
-<p>Quarterly BOP reports each year</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Data providers </th>
-        <td>
-          
-            <p> Central Bank of Kenya, The National Treasury and Kenya Revenue Authority</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Data compilers </th>
-        <td>
-          
-            <p>Kenya National Bureau of Statistics</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Institutional mandate </th>
-        <td>
-          
-            <p>According to the Statistics Act of 2006, Kenya National Bureau of Statistics is mandated to collect, compile, analyze, publish and disseminate official statistics for public use</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
       
       
@@ -1180,187 +524,8 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row">Rationale </th>
-        <td>
-          
-            <p>Critical in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of countries to reduce debt distress</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Comment and limitations </th>
-        <td>
           
-            <p> No major issue in terms of the feasibility and suitability in reporting the indicator.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Method of computation </th>
-        <td>
-          
-            <p>Public and publicly guaranteed external debt data are compiled by the World Bank based on the World Bank Debtor Reporting System Manual, dated January 2000 which sets out the reporting procedures to be used by countries. The data are provided by the countries on a loan by loan basis. </p>
-<p>“Exports of goods and services” data are sourced from IMF’s Balance of Payments Statistics database and then gap-filled with World Bank staff estimates in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6) </p>
-<p>Both components are used to express the indicator in percentage terms.</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Validation </th>
-        <td>
-          
-            <p>Statistics produced undergoes a rigorous process of peer review from our partners who include Central Bank of Kenya, Kenya Revenue Authority, The National Treasury and other stakeholders<em> </em></p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Methods and guidance available to countries for the compilation of the data at the national level </th>
-        <td>
-          
-            <p> It follows BPM6 guidelines</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Quality management </th>
-        <td>
-          
-            <p>The Bureau is ISO certified and also carries out its own internal audit that ensures that high quality statistics are produced</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Quality assurance </th>
-        <td>
-          
-            <p>The Bureau adheres to KeSQAF that ensures that statistics produced meets the needs of the users</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Quality assessment </th>
-        <td>
-          
-            <p>The Bureau has a quality management system in place that ensures that data produced meets the set standards</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Data availability and disaggregation </th>
-        <td>
-          
-            <p><strong>Data availability:</strong></p>
-<p>Data is currently available on a regular basis for this indicator.</p>
-<p><strong>Disaggregation:	</strong></p>
-<p>None<br /></p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">Comparability/deviation from international standards </th>
-        <td>
-          
-            <p><strong>  Sources of discrepancies:</strong></p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-      
-      <tr>
-        <th scope="row">References and Documentation </th>
-        <td>
-          
-            <p> <strong>URL:</strong></p>
-<p>www.worldbank.org</p>
-<p><strong>References:</strong></p>
-<p>http://databank.worldbank.org/data/reports.aspx?source=2&amp;type=metadata&amp;series= DT.TDS.DPPF.XP.ZS</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
       
       
@@ -1369,18 +534,153 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-      
-      <tr>
-        <th scope="row">Metadata last updated </th>
-        <td>
-          
-            Nov 17, 2026
-          
-        </td>
-        </tr>
         
+          
       
-  
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
   
   
   
@@ -1682,12 +982,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20261119113507'></script>
+<script src='/site/assets/js/sdg.js?v=20261119150154'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20261119113507"></script><script>
+    <script src="/site/assets/js/custom.js?v=20261119150154"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
