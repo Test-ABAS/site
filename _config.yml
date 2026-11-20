@@ -38,4 +38,5 @@ exclude:
   - README.md
   - LICENSE
 
-other_framework_domain: "https://Test-ABAS.github.io/sdg-site"
+other_framework_domain: "https://sdgdata.gov.uk/"
+#"https://Test-ABAS.github.io/sdg-site"
